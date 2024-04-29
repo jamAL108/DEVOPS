@@ -29,7 +29,7 @@ pipeline {
     post {
         always {
             echo 'Cleaning up...'
-            bat 'rm AdditionProgram.class' // Clean up compiled class file
+            bat 'del DEVOPS\\AdditionProgram.class' // Clean up compiled class file
         }
     }
 }
