@@ -21,6 +21,7 @@
 > 5. `javac AdditionProgram.java`
 > 6. `java AdditionProgram`
 > 7.  copy this two command to run java and paste it in the (Execute Windows batch command) from  (your_job_name)/configure/build environments
+ ![image](https://github.com/jamAL108/DEVOPS/assets/115083239/e10b54b9-0b68-477e-b5af-7e6b080c9986)
 > 8.  Apply and save it and build the JOB , check output in console output section.
 > 9. Done
 > 10. Files which are used here are `AdditionProgram.java` file you can copy those and add them in ur repo.
