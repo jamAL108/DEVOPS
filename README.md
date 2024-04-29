@@ -1,5 +1,7 @@
 # Devops All EXPS
 
+> Make sure to change the github URL in `Expthree` `jenkinsFile` if you are shifting to your own repo . even if you dont change it , the program will run as usual 
+
 ## Exp 2 - Demonstrate Building java program (addition of 2 numbers) through Jenkins.
 > 1. Download Jenkins and Java of ( java of 11 , 17 or 21 ) .
 > 2. Create a Job called jenexp3
