@@ -14,14 +14,14 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building Java program...'
-                sh 'javac AdditionProgram.java'
+                bat 'javac AdditionProgram.java'
             }
         }
         
         stage('Test') {
             steps {
                 echo 'Running Java program...'
-                sh 'java AdditionProgram'
+                bat 'java AdditionProgram'
             }
         }
     }
@@ -29,7 +29,7 @@ pipeline {
     post {
         always {
             echo 'Cleaning up...'
-            sh 'rm AdditionProgram.class' // Clean up compiled class file
+            bat 'rm AdditionProgram.class' // Clean up compiled class file
         }
     }
 }
