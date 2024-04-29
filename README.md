@@ -57,5 +57,10 @@
 ## EXP 7 - Create an image of php project and push on Dockerhub repository.
 > 1. install docker https://www.docker.com/products/docker-desktop  check system req for any problem ( https://docs.docker.com/desktop/install/windows-install/ )
 > 2. create a folder
-> 3. create a DockerFile and a php file
-> 4. Refer https://chat.openai.com/share/1339d6c3-116e-41d7-895a-8b9d894de9f4
+> 3. create a DockerFile and a php file take `Dockerfile` and `index.php` from above
+> 4. enter the command one after other
+> 5. `docker build -t phpexp7 .`
+> 6. `docker run  -p 8000:80 phpexp7`
+> 7. visit localhost:8000 to see output
+
+
