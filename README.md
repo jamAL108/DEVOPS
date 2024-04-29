@@ -16,7 +16,7 @@
 ## EXP 3 - Demonstrate Continuous Integration process in Jenkins. Build a java program every 2 minutes (addition of two numbers) residing in Github repository. 
 > 1. Download Jenkins and Java of ( java of 11 , 17 or 21 ) .
 > 2. Create a Job called sum
-> 3. go to C:\ProgramData\Jenkins\.jenkins\workspace\(your_job_name) and check if its available
+> 3. go to C:\ProgramData\Jenkins\.jenkins\workspace\(your_job_name) and check if its available (if workspace not available then build the JOB first then check for it it will be visible )
 > 4. copy AdditionProgram.java from here and place that in your workspace/(your_job_name) .
 > 5. `javac AdditionProgram.java`
 > 6. `java AdditionProgram`
