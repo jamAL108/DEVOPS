@@ -6,6 +6,11 @@ pipeline {
     }
     
     stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/jamAL108/DEVOPS.git'
+            }
+        }
         stage('Build') {
             steps {
                 echo 'Building Java program...'
