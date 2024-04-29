@@ -20,7 +20,13 @@
 > 5. go to C:\xampp\htdocs , you will find index.html open it , Done .
 
 ## EXP 5 - Demonstrate CI/CD in Jenkins. Consider 3 html files in Github repository and write a declarative pipeline to deploy on Xampp server.
-> 1. 
+> 1. create a new JOB .
+> 2. go to `configure` in the Pipeline section , select definition as Pipeline with SCM
+> 3. Enter the github URL.
+> 4. Change the branch to main in ( Branches to build section )
+> 5. script path input should be given as  `JenkinsFile`
+> 6. save and run it.
+> 7. go to C:\xampp\htdocs , you will find index.html , declarative.html open it , Done .
 
 ## EXP 6 - Write a Selenium script to perform automated testing. 
 > 1. copy the selenium.py from above
