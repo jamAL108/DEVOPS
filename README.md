@@ -37,7 +37,7 @@
 
 ## EXP 5 - Demonstrate CI/CD in Jenkins. Consider 3 html files in Github repository and write a declarative pipeline to deploy on Xampp server.
 > 1. create a new JOB .
-> 2. go to `configure` in the Pipeline section , select definition as Pipeline with SCM
+> 2. go to `configure` in the Pipeline section , select definition as Pipeline with SCM and selecct git 
 > 3. Enter the github URL.
 > 4. Change the branch to main in ( Branches to build section )
 > 5. script path input should be given as  `JenkinsFile` ( IMPORTANTTTTTTT )
