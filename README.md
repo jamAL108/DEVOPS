@@ -66,6 +66,8 @@
 > 9. `docker tag phpexp7 your_username/phpexp7:latest`
 > 10. `docker login`
 > 11. `docker push your_username/phpexp7:latest`
+>  ![image](https://github.com/jamAL108/DEVOPS/assets/115083239/3b5782c3-dc19-4fe1-b2ed-1d134f933858)
+
 
 
 
