@@ -19,13 +19,8 @@
 > 4. save and run it.
 > 5. go to C:\xampp\htdocs , you will find index.html open it , Done .
 
-
-## EXP 5 - Create an image of php project and push on Dockerhub repository.
-> 1. install docker https://www.docker.com/products/docker-desktop
-> 2. create a folder
-> 3. create a DockerFile and a php file
-> 4. Refer https://chat.openai.com/share/1339d6c3-116e-41d7-895a-8b9d894de9f4
-
+## EXP 5 - Demonstrate CI/CD in Jenkins. Consider 3 html files in Github repository and write a declarative pipeline to deploy on Xampp server.
+> 1. 
 
 ## EXP 6 - Write a Selenium script to perform automated testing. 
 > 1. copy the selenium.py from above
@@ -34,3 +29,10 @@
 > 4. run the code in vscode or online collab
 > 5. chrome will open and microsoft BIng will open automatically.
 > 6. Experiment Done.
+>
+
+## EXP 7 - Create an image of php project and push on Dockerhub repository.
+> 1. install docker https://www.docker.com/products/docker-desktop
+> 2. create a folder
+> 3. create a DockerFile and a php file
+> 4. Refer https://chat.openai.com/share/1339d6c3-116e-41d7-895a-8b9d894de9f4
