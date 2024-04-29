@@ -62,5 +62,10 @@
 > 5. `docker build -t phpexp7 .`
 > 6. `docker run  -p 8000:80 phpexp7`
 > 7. visit localhost:8000 to see output
+> 8. next are following command to push to registry'
+> 9. `docker tag phpexp7 your_username/phpexp7:latest`
+> 10. `docker login`
+> 11. `docker push your_username/phpexp7:latest`
+
 
 
