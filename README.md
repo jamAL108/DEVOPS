@@ -5,13 +5,12 @@
 > 2. Create a Job called sum
 > 3. First build the job (run it) ( without running the job , the workspace folder will not be visible )
 > 4. go to C:\ProgramData\Jenkins\.jenkins\workspace\(your_job_name) place your java file here .
-> 5. copy AdditionProgram.java from here.
-> 6. write this following code
-> 7. `javac AdditionProgram.java`
-> 8. `java AdditionProgram`
-> 9. copy the command to run java and paste it in the (Execute Windows batch command) from  build environments
-> 10. Apply and save it and build the JOB
-> 11. Done
+> 5. copy AdditionProgram.java from here and place that in your workspace .
+> 6. `javac AdditionProgram.java`
+> 7. `java AdditionProgram`
+> 8.  copy this two command to run java and paste it in the (Execute Windows batch command) from  configure/build environments
+> 9.  Apply and save it and build the JOB , check output in console output section.
+> 10. Done
 
 ## EXP 4 - Demonstrate CI/CD in Jenkins. Consider 3 html files in Github repository and write a declarative pipeline to deploy on Xampp server.
 > 1. Download Xampp , create a repo and add index.html (dummy data ) 0r use this repo.
