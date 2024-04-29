@@ -14,11 +14,10 @@
 
 ## EXP 4 - Demonstrate CI/CD in Jenkins. Consider 3 html files in Github repository and write a declarative pipeline to deploy on Xampp server.
 > 1. Download Xampp download the first one ( https://www.apachefriends.org/download.html ) , create a repo and add index.html (dummy data ) 0r use this repo.
-> 2. Refer https://chat.openai.com/share/8b4c823e-211c-486f-8b4d-0a95a6603e68
-> 3. copy the code from above Xampp file ( make sure to change the path of github from the code if you are using ur own account ) 
-> 4. go to `configure` of the job and paste it in pipeline section's script.
-> 5. save and run it.
-> 6. go to C:\xampp\htdocs , you will find index.html open it , Done 
+> 2. copy the code from above Xampp file ( make sure to change the path of github from the code if you are using ur own account ) 
+> 3. go to `configure` of the job and paste it in pipeline section's script.
+> 4. save and run it.
+> 5. go to C:\xampp\htdocs , you will find index.html open it , Done .
 
 
 ## EXP 5 - Create an image of php project and push on Dockerhub repository.
