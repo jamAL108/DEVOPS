@@ -1,6 +1,6 @@
 # Devops All EXPS
 
-## Exp 2 - Demonstrate Continuous Integration process in Jenkins. Build a java program every 2 minutes (addition of two numbers) residing in Github repository. 
+## Exp 2 - Demonstrate Building java program (addition of 2 numbers) through Jenkins.
 > 1. Download Jenkins and Java of ( java of 11 , 17 or 21 ) .
 > 2. Create a Job called sum
 > 3. First build the job (run it) ( without running the job , the workspace folder will not be visible )
