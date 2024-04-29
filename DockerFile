@@ -1,14 +1,15 @@
-# Use the official PHP image as the base
-FROM php:7.4-apache
+# Use the official PHP image as the base image
+FROM php:latest
 
-# Set the working directory inside the container
-WORKDIR /var/www/html
+# Copy the PHP file into the container
+COPY index.php /var/www/html/
 
-# Copy the application files to the container
-COPY . /var/www/html/
+# Set the working directory
+WORKDIR /var/www/html/
 
 # Expose port 80
 EXPOSE 80
 
-# Define the startup command
-CMD ["apache2-foreground"]
+# Command to run the PHP file
+CMD ["php", "-S", "0.0.0.0:80"]
+
