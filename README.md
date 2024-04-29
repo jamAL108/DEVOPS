@@ -4,11 +4,11 @@
 > 1. Download Jenkins and Java of ( java of 11 , 17 or 21 ) .
 > 2. Create a Job called sum
 > 3. First build the job (run it) ( without running the job , the workspace folder will not be visible )
-> 4. go to C:\ProgramData\Jenkins\.jenkins\workspace\(your_job_name) place your java file here .
-> 5. copy AdditionProgram.java from here and place that in your workspace .
+> 4. go to C:\ProgramData\Jenkins\.jenkins\workspace\(your_job_name) and check if its available
+> 5. copy AdditionProgram.java from here and place that in your workspace/(your_job_name) .
 > 6. `javac AdditionProgram.java`
 > 7. `java AdditionProgram`
-> 8.  copy this two command to run java and paste it in the (Execute Windows batch command) from  configure/build environments
+> 8.  copy this two command to run java and paste it in the (Execute Windows batch command) from  (your_job_name)/configure/build environments
 > 9.  Apply and save it and build the JOB , check output in console output section.
 > 10. Done
 
