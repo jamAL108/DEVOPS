@@ -55,7 +55,7 @@
 > 7. Files which are used here are Selenium.py file you can copy those and add them in ur repo
 
 ## EXP 7 - Create an image of php project and push on Dockerhub repository.
-> 1. install docker https://www.docker.com/products/docker-desktop
+> 1. install docker https://www.docker.com/products/docker-desktop  check system req for any problem ( https://docs.docker.com/desktop/install/windows-install/ )
 > 2. create a folder
 > 3. create a DockerFile and a php file
 > 4. Refer https://chat.openai.com/share/1339d6c3-116e-41d7-895a-8b9d894de9f4
