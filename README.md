@@ -25,4 +25,12 @@
 > 2. create a folder
 > 3. create a DockerFile and a php file
 > 4. Refer https://chat.openai.com/share/1339d6c3-116e-41d7-895a-8b9d894de9f4
-> 5. 
+
+
+## EXP 6 - Write a Selenium script to perform automated testing. 
+> 1. copy the selenium.py from above
+> 2. create a folder place the file there
+> 3. run the command `pip install selenium`
+> 4. run the code in vscode or online collab
+> 5. chrome will open and microsoft BIng will open automatically.
+> 6. Experiment Done.
