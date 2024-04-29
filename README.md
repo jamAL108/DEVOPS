@@ -14,15 +14,14 @@
 ## EXP 3 - Demonstrate Continuous Integration process in Jenkins. Build a java program every 2 minutes (addition of two numbers) residing in Github repository. 
 > 1. Download Jenkins and Java of ( java of 11 , 17 or 21 ) .
 > 2. Create a Job called sum
-> 3. 
-> 4. go to C:\ProgramData\Jenkins\.jenkins\workspace\(your_job_name) and check if its available
-> 5. copy AdditionProgram.java from here and place that in your workspace/(your_job_name) .
-> 6. `javac AdditionProgram.java`
-> 7. `java AdditionProgram`
-> 8.  copy this two command to run java and paste it in the (Execute Windows batch command) from  (your_job_name)/configure/build environments
-> 9.  Apply and save it and build the JOB , check output in console output section.
-> 10. Done
-> 11. Files which are used here are `AdditionProgram.java` file you can copy those and add them in ur repo.
+> 3. go to C:\ProgramData\Jenkins\.jenkins\workspace\(your_job_name) and check if its available
+> 4. copy AdditionProgram.java from here and place that in your workspace/(your_job_name) .
+> 5. `javac AdditionProgram.java`
+> 6. `java AdditionProgram`
+> 7.  copy this two command to run java and paste it in the (Execute Windows batch command) from  (your_job_name)/configure/build environments
+> 8.  Apply and save it and build the JOB , check output in console output section.
+> 9. Done
+> 10. Files which are used here are `AdditionProgram.java` file you can copy those and add them in ur repo.
 
 
 ## EXP 4 - Demonstrate CI/CD in Jenkins. Consider 3 html files in Github repository and write a declarative pipeline to deploy on Xampp server.
