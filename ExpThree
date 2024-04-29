@@ -1,0 +1,30 @@
+pipeline {
+    agent any
+    
+    triggers {
+        cron('H/2 * * * *') // Run every 2 minutes
+    }
+    
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building Java program...'
+                sh 'javac AdditionProgram.java'
+            }
+        }
+        
+        stage('Test') {
+            steps {
+                echo 'Running Java program...'
+                sh 'java AdditionProgram'
+            }
+        }
+    }
+    
+    post {
+        always {
+            echo 'Cleaning up...'
+            sh 'rm AdditionProgram.class' // Clean up compiled class file
+        }
+    }
+}
