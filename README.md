@@ -2,7 +2,8 @@
 
 > Make sure to change the github URL in `Expthree` `jenkinsFile` if you are shifting to your own repo . even if you dont change it , the program will run as usual 
 
-## Exp 2 - Demonstrate Building java program (addition of 2 numbers) through Jenkins.
+## EXP 3 - Demonstrate Continuous Integration process in Jenkins. Build a java program every 2 minutes (addition of two numbers) residing in Github repository
+##addition of 2 numbers) through Jenkins.
 > 1. Download Jenkins and Java of ( java of 11 , 17 or 21 ) .
 > 2. Create a Job called jenexp3
 > 3. go to `configure` in the Pipeline section , select definition as Pipeline with SCM
@@ -13,7 +14,7 @@
 > 7. Done
 > 8. Files which are used here are `AdditionProgram.java` and `ExpThree` file you can copy those and add them in ur repo.
 
-## EXP 3 - Demonstrate Continuous Integration process in Jenkins. Build a java program every 2 minutes (addition of two numbers) residing in Github repository. 
+## Exp 2 - Demonstrate Building java program using jenkins 
 > 1. Download Jenkins and Java of ( java of 11 , 17 or 21 ) .
 > 2. Create a Job called sum
 > 3. go to C:\ProgramData\Jenkins\.jenkins\workspace\(your_job_name) and check if its available (if workspace not available then build the JOB first then check for it it will be visible )
